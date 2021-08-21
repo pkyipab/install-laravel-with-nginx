@@ -263,7 +263,7 @@ Then create a new user with root privileges and password-based access. Be sure t
 
 ```
 MariaDB[(none)] > GRANT ALL ON *.* TO 'root'@'localhost' IDENTIFIED BY 'Password' WITH GRANT OPTION;
-MariaDB[(none)] > GRANT ALL ON *.* TO ubuntu@'localhost' IDENTIFIED BY 'Password' WITH GRANT OPTION;
+MariaDB[(none)] > GRANT ALL ON *.* TO 'ubuntu'@'localhost' IDENTIFIED BY 'Password' WITH GRANT OPTION;
 MariaDB[(none)] > FLUSH PRIVILEGES;
 MariaDB[(none)] > exit;
 ```
