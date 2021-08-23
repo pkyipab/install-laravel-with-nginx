@@ -370,8 +370,8 @@ sudo php artisan serve --port=80 // If you want to run it on port 80, you probab
 ### Permission Update
 
 ```
-sudo chown -R ubuntu /home
-sudo chmod -R 755 /home
+sudo chown -R ubuntu /home/xxx
+sudo chmod -R 755 /home/xxx
 ```
 
 ### Listing services
